@@ -1,0 +1,33 @@
+<div class="error2"><% if(typeof errors !='undefined' ) { %>
+
+	<% errors.forEach(function(error){ %>
+
+		<%= error.msg %>
+
+			<%= console.log(error.msg) %>
+
+				<% }) %>
+
+					<% } %>
+					</div>	
+
+						<div class="success">
+							<% if(success_msg !='' ){ %>
+								<%= success_msg %>
+
+									<% } %>
+						</div>
+
+						<div class="error2">
+						<% if(error_msg !='' ){ %>
+							<%= error_msg %>
+
+								<% } %>
+							</div>
+
+									<div class="error">
+										<% if(error !='' ){ %>
+											<%= error %>
+
+												<% } %>
+									</div>

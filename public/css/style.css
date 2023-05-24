@@ -1,0 +1,400 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.container {
+	width: 100%;
+}
+
+.nav {
+	display: flex;
+	gap: 7%;
+	justify-content: center;
+	background-color: #000000;
+	height: 10vh;
+	align-items: center;
+
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+
+.nav a:hover {
+	border-bottom: 2px solid white;
+}
+
+.header {
+	width: 100%;
+	height: 11.5vh;
+	/* border: 1px solid #000000; */
+	/* padding: 15px 0px 15px 5%; */
+	background-color: #000000;
+	color: #FFF;
+}
+
+.footer {
+	width: 100%;
+	height: 11.5vh;
+	/* border: 1px solid #000000; */
+	/* padding: 15px 0px 15px 5%; */
+	background-color: #000000;
+	color: #FFF;
+}
+
+body.contain {
+	background-color: rgb(241, 241, 241);
+
+}
+
+.cont {
+	width: 300px;
+	border-radius: 20px;
+	margin: 10% auto;
+	height: 300px;
+	background-color: #ffffff;
+	padding-top: 3%;
+	padding-left: 4%;
+	padding-bottom: 3%;
+	padding-right: 1%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.cont h1 {
+	color: #050505;
+	font-size: 28px;
+	margin-bottom: 20px;
+
+}
+
+.cont p {
+	color: #070707;
+	font-size: 15px;
+	margin-bottom: 35px;
+	letter-spacing: 1px;
+}
+
+.cont button {
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	background-color: #060606;
+	color: white;
+	border: 0px solid;
+	margin-bottom: 15px;
+	transition: ease-in-out all 0.3s;
+}
+
+.cont button:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: ease-in-out all 0.3s;
+}
+
+.cont .register {
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+.cont button a {
+	text-decoration: none;
+	color: #f01f92;
+}
+
+.cont input[type=text],
+.cont input[type=password] {
+	width: 250px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	/* border-radius: 10px; */
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+.cont input:focus {
+	outline: none;
+}
+
+.header h2 {
+	font-size: 30px;
+	margin-bottom: 5px;
+	letter-spacing: 2px
+}
+
+
+
+.footer ul {
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+	align-items: center;
+	list-style: none;
+	color: white;
+	margin-top: 30px;
+}
+
+.footer ul a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+
+}
+
+.footer ul a:hover {
+	border-bottom: 2px solid white;
+}
+
+.footer h3 {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.content h3 {
+	color: #A6266C;
+	font-weight: lighter;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.header h2 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.common-header {
+	text-align: center;
+}
+
+.content {
+	height: 72VH;
+	margin-top: 50px;
+}
+
+.login-last {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.content .register-form {
+
+
+	margin-top: 20px;
+	display: flex;
+	gap: 20%;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-last a {
+	margin-left: 3px;
+	font-size: 20px;
+}
+
+.login-last a:hover {
+	border-bottom: 2px solid black;
+}
+
+.content form p {
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+
+}
+
+
+.content form input[type=text],
+.content form input[type=password] {
+	width: 300px;
+	height: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 40px;
+}
+
+.content form input[type=submit] {
+	margin-top: 30px;
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 15px;
+	background-color: #060606;
+	color: white;
+	border: 0px solid;
+	transition: ease-in-out all 0.3s;
+
+}
+
+.overall-register {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.content .second-form {
+	margin-top: -10px;
+}
+
+.content a {
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+.content form input[type=submit]:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: ease-in-out all 0.3s;
+}
+
+.content form input[type=text],
+.content form select {
+
+	padding: 10px;
+	color: rgb(0, 0, 0);
+
+}
+
+.content form select {
+	width: 320px;
+	border-radius: 10px;
+	height: 42px;
+	margin-bottom: 30px
+}
+
+.content table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.content table th {
+	background-color: #000000;
+	color: #f2f2f2;
+	padding: 10px;
+	letter-spacing: 2px
+}
+
+.content table td {
+	padding: 10px;
+	color: #592F46;
+}
+
+
+.error {
+	color: red;
+	padding-bottom: 10px;
+}
+
+.success {
+	color: green;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.error2 {
+	color: red;
+	text-align: center;
+}
+
+.add-patient {
+	margin-left: 20%;
+}
+
+.radio-add-patient {
+	padding-bottom: 25px;
+}
+
+.add-patient button {
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 15px;
+	background-color: #060606;
+	color: white;
+	border: 0px solid;
+	transition: ease-in-out all 0.3s;
+}
+
+.add-patient button:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: ease-in-out all 0.3s;
+
+}
+
+.heading-add-patient {
+	margin-top: -20px;
+}
+
+.heading-view-patient {
+	text-align: center;
+}
+.heading-add-diagnosis{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.add-diagnosis{
+	margin-left: 20%;
+}
+
+.text-area-add-diagnosis{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 320px;
+	height: 100px;
+}
+.add-diagnosis-button{
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 15px;
+	background-color: #060606;
+	color: white;
+	border: 0px solid;
+	transition: ease-in-out all 0.3s;
+
+}
+.add-diagnosis-button:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: ease-in-out all 0.3s;
+
+}
+
+.heading-view-diagnosis{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.table-view-diagnosis{
+	display: flex;
+	justify-content: center;
+}

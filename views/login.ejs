@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body class="contain">
+
+
+			<div class="cont">
+				<h1>Login Page</h1>	
+				<%- include('./partials/messages')   %>
+
+				<form action = "/login" method="post">
+					<p> <input type="text" name="username" placeholder="Username" autocomplete="off"/></p>
+					<p> <input type="password" name="password" placeholder="Password" autocomplete="off"/></p>
+					<button type="submit">Login</button>
+
+
+				</form>
+
+				<p>No Account?<a href="/register" class="register">Register</a></p>
+		</div>
+
+</body>
+</html>

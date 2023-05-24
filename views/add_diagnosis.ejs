@@ -1,0 +1,23 @@
+
+
+		<%- include('partials/header') %>
+
+		<h2 class="heading-add-diagnosis">Add Diagnosis</h2>
+
+		<h3>Diagnosis Capture Form</h3>
+
+
+		<%- include('./partials/messages')   %>
+
+		<form class="add-diagnosis" action="/adddiagnosis" method="post">
+
+			<p><input type="text" name="patientid" placeholder="Patient Id"/></p>
+			<p>Complaint: <br/><textarea class="text-area-add-diagnosis" name="complaint" rows="10" cols="40"></textarea>
+			</p>
+			
+			<p>Recommendation: <br/><textarea class="text-area-add-diagnosis" name="recommendation" rows="10" cols="40"></textarea>
+			</p>
+			<button class="add-diagnosis-button" type="submit">Click to Add</button>
+
+		</form>
+
